@@ -78,6 +78,11 @@ body {
 .contact-list-link:focus {
     color: var(--accent-color);
 }
+
+.active-page {
+    color: var(--accent-color);
+}
+
 /*  ============ END HEADER  ============ */
 
 /*  ============ FOOTER  ============ */
