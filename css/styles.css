@@ -7,7 +7,7 @@
     --description-color: #757575;
     --accent-color: #2196F3;
     --background-dark-color: #2F303A;
-  }
+ }
   
 
 
@@ -121,7 +121,7 @@ body {
     text-transform: uppercase;
     color: var(--title-light-color);
 }  
-    .hero-button {
+.hero-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -130,7 +130,9 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--title-light-color);
-    background-color: var(--accent-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
   }
   /*  ============ END HERO  ============ */
 
@@ -178,7 +180,40 @@ body {
 
 /*-------PORTFOLIO PAGE-------*/
 
+/*  ============ PROJECTS  ============ */
 
+.projects-filter-list-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-dark-color);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F5F4FA;
+    border-radius: 4px;
+}
+
+.projects-filter-list-button:hover {
+    color: var(--title-light-color);
+    background: var(--accent-color)
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-dark-color)
+}
+
+.projects-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--description-color)
+}
+/*  ============ END PROJECTS  ============ */
 
 /*-------END PORTFOLIO PAGE-------*/
 
