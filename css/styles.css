@@ -76,7 +76,7 @@ body {
 .navigation-list-link:focus,
 .contact-list-link:hover,
 .contact-list-link:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 /*  ============ END HEADER  ============ */
 
@@ -133,26 +133,26 @@ body {
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-  }
+}
   /*  ============ END HERO  ============ */
 
   /*  ============ ADVANTAGES  ============ */
 
-  .advantages-list-subtitle {
+.advantages-list-subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-dark-color);
-  }
-  .advantages-list-text {
+}
+.advantages-list-description{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--description-color)
-  }
+}
 /*  ============ END ADVANTAGES  ============ */
 
 /*  ============ TEAM  ============ */
@@ -198,7 +198,7 @@ body {
     background: var(--accent-color)
 }
 
-.projects-title {
+.projects-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -206,7 +206,7 @@ body {
     color: var(--title-dark-color)
 }
 
-.projects-description {
+.projects-list-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
