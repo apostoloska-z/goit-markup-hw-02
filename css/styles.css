@@ -198,7 +198,8 @@ body {
     border-radius: 4px;
 }
 
-.projects-filter-list-button:hover {
+.projects-filter-list-button:hover,
+.projects-filter-list-button:focus {
     color: var(--title-light-color);
     background: var(--accent-color)
 }
