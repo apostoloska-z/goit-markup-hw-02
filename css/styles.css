@@ -162,6 +162,10 @@ body {
 
 /*  ============ TEAM  ============ */
 
+.team {
+    background: #F5F4FA;
+}
+
 .team-list-subtitle {
     font-weight: 500;
     font-size: 16px;
