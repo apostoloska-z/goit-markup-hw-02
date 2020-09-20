@@ -149,7 +149,16 @@ footer .logo-web {
 /*  ============ FOOTER  ============ */
 
 .footer {
+    padding: 60px 0;
     background-color: var(--background-dark-color);
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address-line:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .address-main {
